@@ -5,8 +5,10 @@ import { useRouter } from "next/navigation";
 import addData from "@/firebase/firestore/addData";
 import { useEffect, useState } from "react";
 import getAllData from "@/firebase/firestore/getData";
-import { auth } from "@/firebase/config";
-import { signOut } from "firebase/auth";
+import app from "@/firebase/config";
+import { getAuth, signOut } from "firebase/auth";
+
+const auth = getAuth(app);
 
 function Page() {
   const { user } = useAuthContext();
@@ -25,6 +27,7 @@ function Page() {
     const data = {
       task: task,
       status: status,
+      userId: user.uid, // Include the user ID
     };
 
     const { result, error } = await addData("tasks", data);
@@ -38,7 +41,7 @@ function Page() {
   };
 
   const fetchData = async () => {
-    const { result, error } = await getAllData("tasks");
+    const { result, error } = await getAllData("tasks", user.uid);
 
     if (result) {
       setData(result);
