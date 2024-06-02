@@ -1,9 +1,11 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+import { connectFirestoreEmulator, getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBlZZBsXpcZYVKYJRLi9SKVXMzt126pvg8",
-  authDomain: "fir-auth-dd4df.firebaseapp.com",
+  // authDomain: "fir-auth-dd4df.firebaseapp.com",
+  authDomain: "localhost",
   projectId: "fir-auth-dd4df",
   storageBucket: "fir-auth-dd4df.appspot.com",
   messagingSenderId: "269666752219",
@@ -12,7 +14,9 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+// const app = initializeApp(firebaseConfig);
+const app = getFirestore();
+connectFirestoreEmulator(app, "127.0.0.1", 8080);
 // const auth = getAuth(app);
 
 export default app;

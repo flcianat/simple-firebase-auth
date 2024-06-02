@@ -1,0 +1,229 @@
+[debug] [2024-06-01T18:24:50.030Z] ----------------------------------------------------------------------
+[debug] [2024-06-01T18:24:50.032Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-06-01T18:24:50.033Z] CLI Version:   13.10.2
+[debug] [2024-06-01T18:24:50.033Z] Platform:      win32
+[debug] [2024-06-01T18:24:50.033Z] Node Version:  v21.7.2
+[debug] [2024-06-01T18:24:50.033Z] Time:          Sun Jun 02 2024 01:24:50 GMT+0700 (Indochina Time)
+[debug] [2024-06-01T18:24:50.033Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-01T18:24:50.117Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-01T18:24:50.118Z] > authorizing via signed-in user (flcianataliaa@gmail.com)
+[debug] [2024-06-01T18:24:50.174Z] openjdk version "17.0.10" 2024-01-16
+
+[debug] [2024-06-01T18:24:50.174Z] OpenJDK Runtime Environment Temurin-17.0.10+7 (build 17.0.10+7)
+OpenJDK 64-Bit Server VM Temurin-17.0.10+7 (build 17.0.10+7, mixed mode, sharing)
+
+[debug] [2024-06-01T18:24:50.198Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: auth, firestore, hosting, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, firestore, hosting, storage"}}
+[debug] [2024-06-01T18:24:50.211Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-01T18:24:50.211Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-01T18:24:50.211Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-01T18:24:50.211Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-01T18:24:50.211Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-01T18:24:50.211Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-01T18:24:50.211Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-06-01T18:24:50.215Z] [hub] writing locator at C:\Users\USER\AppData\Local\Temp\hub-fir-auth-dd4df.json
+[debug] [2024-06-01T18:24:50.226Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df [none]
+[debug] [2024-06-01T18:24:50.653Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df 200
+[debug] [2024-06-01T18:24:50.653Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df {"projectId":"fir-auth-dd4df","projectNumber":"269666752219","displayName":"firebase-auth","name":"projects/fir-auth-dd4df","resources":{"hostingSite":"fir-auth-dd4df","realtimeDatabaseInstance":"fir-auth-dd4df-default-rtdb","storageBucket":"fir-auth-dd4df.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_86aa50ed-a09c-4ae0-88f5-651f2142be2e"}
+[debug] [2024-06-01T18:24:53.203Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-auth-dd4df/sites pageToken=&pageSize=10
+[debug] [2024-06-01T18:24:53.993Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-auth-dd4df/sites 200
+[debug] [2024-06-01T18:24:53.993Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-auth-dd4df/sites {"sites":[{"name":"projects/fir-auth-dd4df/sites/fir-auth-dd4df","defaultUrl":"https://fir-auth-dd4df.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-06-01T18:24:53.994Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-auth-dd4df/sites 
+[debug] [2024-06-01T18:24:54.410Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-auth-dd4df/sites 200
+[debug] [2024-06-01T18:24:54.410Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-auth-dd4df/sites {"sites":[{"name":"projects/fir-auth-dd4df/sites/fir-auth-dd4df","defaultUrl":"https://fir-auth-dd4df.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-06-01T18:24:54.411Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/webApps/-/config [none]
+[debug] [2024-06-01T18:24:55.640Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/webApps/-/config 200
+[debug] [2024-06-01T18:24:55.640Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/webApps/-/config {"projectId":"fir-auth-dd4df","appId":"1:269666752219:web:5e2f96353713d618ce9efe","databaseURL":"https://fir-auth-dd4df-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"fir-auth-dd4df.appspot.com","locationId":"us-central","apiKey":"AIzaSyBlZZBsXpcZYVKYJRLi9SKVXMzt126pvg8","authDomain":"fir-auth-dd4df.firebaseapp.com","messagingSenderId":"269666752219","measurementId":"G-9GTQJHT38R"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 14.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[warn] !  This integration expects Node version 16, 18, or 20. You're running version 21, problems may be encountered. 
+[debug] [2024-06-01T18:25:41.609Z] [web frameworks] effective firebase.json:  {
+  "hosting": [
+    {
+      "source": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "frameworksBackend": {
+        "region": "us-east1"
+      },
+      "site": "fir-auth-dd4df",
+      "rewrites": [
+        {
+          "source": "**",
+          "function": {
+            "functionId": "ssrfirauthdd4df",
+            "region": "us-east1",
+            "pinTag": true
+          }
+        }
+      ],
+      "redirects": [],
+      "headers": [
+        {
+          "source": "**/*.[jt]s",
+          "headers": [
+            {
+              "key": "Set-Cookie",
+              "value": "__FIREBASE_DEFAULTS__=eyJlbXVsYXRvckhvc3RzIjp7ImF1dGgiOiIxMjcuMC4wLjE6OTA5OSIsImZpcmVzdG9yZSI6IjEyNy4wLjAuMTo4MDgwIiwic3RvcmFnZSI6IjEyNy4wLjAuMTo5MTk5In0sImNvbmZpZyI6eyJwcm9qZWN0SWQiOiJmaXItYXV0aC1kZDRkZiIsImFwcElkIjoiMToyNjk2NjY3NTIyMTk6d2ViOjVlMmY5NjM1MzcxM2Q2MThjZTllZmUiLCJkYXRhYmFzZVVSTCI6Imh0dHBzOi8vZmlyLWF1dGgtZGQ0ZGYtZGVmYXVsdC1ydGRiLmFzaWEtc291dGhlYXN0MS5maXJlYmFzZWRhdGFiYXNlLmFwcCIsInN0b3JhZ2VCdWNrZXQiOiJmaXItYXV0aC1kZDRkZi5hcHBzcG90LmNvbSIsImxvY2F0aW9uSWQiOiJ1cy1jZW50cmFsIiwiYXBpS2V5IjoiQUl6YVN5QmxaWkJzWHBjWllWS1lKUkxpOVNLVlhNenQxMjZwdmc4IiwiYXV0aERvbWFpbiI6ImZpci1hdXRoLWRkNGRmLmZpcmViYXNlYXBwLmNvbSIsIm1lc3NhZ2luZ1NlbmRlcklkIjoiMjY5NjY2NzUyMjE5IiwibWVhc3VyZW1lbnRJZCI6IkctOUdUUUpIVDM4UiJ9LCJfYXV0aFRva2VuU3luY1VSTCI6Ii9fX3Nlc3Npb24ifQ; SameSite=Strict; Expires=2026-04-27T05:05:41.609Z; Path=/;"
+            }
+          ]
+        }
+      ],
+      "cleanUrls": true,
+      "public": ".firebase\\fir-auth-dd4df\\hosting",
+      "webFramework": "next_ssr"
+    }
+  ],
+  "functions": [
+    {
+      "source": ".firebase\\fir-auth-dd4df\\functions",
+      "codebase": "firebase-frameworks-fir-auth-dd4df"
+    }
+  ]
+}
+[debug] [2024-06-01T18:25:41.616Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-01T18:25:41.616Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-01T18:25:41.616Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, pubsub, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, pubsub, dataconnect\u001b[22m"}}
+[debug] [2024-06-01T18:25:41.623Z] defaultcredentials: writing to file C:\Users\USER\AppData\Roaming\firebase\flcianataliaa_gmail_com_application_default_credentials.json
+[debug] [2024-06-01T18:25:41.629Z] Setting GAC to C:\Users\USER\AppData\Roaming\firebase\flcianataliaa_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\USER\\AppData\\Roaming\\firebase\\flcianataliaa_gmail_com_application_default_credentials.json"}}
+[debug] [2024-06-01T18:25:41.630Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/adminSdkConfig [none]
+[debug] [2024-06-01T18:25:42.971Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/adminSdkConfig 200
+[debug] [2024-06-01T18:25:42.971Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/adminSdkConfig {"projectId":"fir-auth-dd4df","databaseURL":"https://fir-auth-dd4df-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"fir-auth-dd4df.appspot.com","locationId":"us-central"}
+[debug] [2024-06-01T18:25:43.001Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-06-01T18:25:43.002Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-06-01T18:25:43.002Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\USER\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.6.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","fir-auth-dd4df","--rules","C:\\VSCode\\simple-firebase-auth\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\USER\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.6.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"fir-auth-dd4df\",\"--rules\",\"C:\\\\VSCode\\\\simple-firebase-auth\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2024-06-01T18:25:43.968Z] Jun 02, 2024 1:25:43 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://127.0.0.1:9150
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 02, 2024 1:25:43 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\r\nINFO: Started WebSocket server on ws://127.0.0.1:9150\r\n"}}
+[debug] [2024-06-01T18:25:44.003Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
+[debug] [2024-06-01T18:25:44.003Z] 127.0.0.1:8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080
+
+If you are running a Firestore in Datastore Mode project, run:
+
+   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080
+
+Note: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":"127.0.0.1:8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\r\n\n   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080\n\nIf you are running a Firestore in Datastore Mode project, run:\r\n\n   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080\n\nNote: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.\r\nDev App Server is now running.\n\r\n"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2024-06-01T18:25:48.905Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-06-01T18:25:49.619Z] Temp file directory for storage emulator: C:\Users\USER\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\USER\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[debug] [2024-06-01T18:25:49.624Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-auth-dd4df/sites 
+[debug] [2024-06-01T18:25:50.383Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-auth-dd4df/sites 200
+[debug] [2024-06-01T18:25:50.383Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-auth-dd4df/sites {"sites":[{"name":"projects/fir-auth-dd4df/sites/fir-auth-dd4df","defaultUrl":"https://fir-auth-dd4df.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-06-01T18:25:50.383Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/webApps/-/config [none]
+[debug] [2024-06-01T18:25:51.522Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/webApps/-/config 200
+[debug] [2024-06-01T18:25:51.522Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/webApps/-/config {"projectId":"fir-auth-dd4df","appId":"1:269666752219:web:5e2f96353713d618ce9efe","databaseURL":"https://fir-auth-dd4df-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"fir-auth-dd4df.appspot.com","locationId":"us-central","apiKey":"AIzaSyBlZZBsXpcZYVKYJRLi9SKVXMzt126pvg8","authDomain":"fir-auth-dd4df.firebaseapp.com","messagingSenderId":"269666752219","measurementId":"G-9GTQJHT38R"}
+[info] i  hosting[fir-auth-dd4df]: Serving hosting files from: .firebase\fir-auth-dd4df\hosting {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1m.firebase\\fir-auth-dd4df\\hosting\u001b[22m"}}
+[info] +  hosting[fir-auth-dd4df]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-06-01T18:25:51.543Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-06-01T18:25:51.543Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-06-01T18:25:51.543Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\USER\\.cache\\firebase\\emulators\\ui-v1.12.1\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\USER\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.12.1\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-06-01T18:25:51.676Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-06-01T18:25:51.676Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\VSCode\simple-firebase-auth\.firebase\fir-auth-dd4df\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\VSCode\\simple-firebase-auth\\.firebase\\fir-auth-dd4df\\functions\" for Cloud Functions..."}}
+[debug] [2024-06-01T18:25:51.759Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2024-06-01T18:25:52.784Z] > [functions] package.json contents: {
+  "main": "server.js",
+  "dependencies": {
+    "firebase-frameworks": "^0.11.0",
+    "firebase-functions": "^4.5.0",
+    "firebase-admin": "^11.11.1"
+  },
+  "engines": {
+    "node": "20"
+  }
+}
+[debug] [2024-06-01T18:25:52.784Z] Building nodejs source
+[debug] [2024-06-01T18:25:52.784Z] Failed to find version of module node: reached end of search path C:\VSCode\simple-firebase-auth\.firebase\fir-auth-dd4df\functions\node_modules
+[warn] !  functions: Your requested "node" version "20" doesn't match your global version "21". Using node@21 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2024-06-01T18:25:52.789Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-06-01T18:25:52.794Z] Found firebase-functions binary at 'C:\VSCode\simple-firebase-auth\.firebase\fir-auth-dd4df\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8542
+
+[debug] [2024-06-01T18:25:53.157Z] Got response from /__/functions.yaml {"endpoints":{"ssrfirauthdd4df":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","region":["us-east1"],"labels":{},"httpsTrigger":{},"entryPoint":"ssrfirauthdd4df"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: ssrfirauthdd4df. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ssrfirauthdd4df."}}
+[info] +  functions[us-east1-ssrfirauthdd4df]: http function initialized (http://127.0.0.1:5001/fir-auth-dd4df/us-east1/ssrfirauthdd4df). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/fir-auth-dd4df/us-east1/ssrfirauthdd4df)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Hosting        │ 127.0.0.1:5000 │ n/a                             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage   │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-06-01T18:26:06.810Z] Jun 02, 2024 1:26:06 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 02, 2024 1:26:06 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\r\nINFO: Connected to new websocket client\r\n"}}
+[debug] [2024-06-01T18:26:08.851Z] Jun 02, 2024 1:26:08 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 02, 2024 1:26:08 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2024-06-01T18:26:09.015Z] Jun 02, 2024 1:26:09 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 02, 2024 1:26:09 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected HTTP/2 connection.\r\n"}}
+[debug] [2024-06-01T18:26:31.328Z] Jun 02, 2024 1:26:31 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 02, 2024 1:26:31 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\r\nINFO: Websocket client disconnected\r\n"}}
+[debug] [2024-06-01T18:26:31.410Z] Jun 02, 2024 1:26:31 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 02, 2024 1:26:31 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\r\nINFO: Connected to new websocket client\r\n"}}
+[debug] [2024-06-01T18:26:45.728Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/adminSdkConfig [none]
+[debug] [2024-06-01T18:26:46.349Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/adminSdkConfig 200
+[debug] [2024-06-01T18:26:46.349Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-dd4df/adminSdkConfig {"projectId":"fir-auth-dd4df","databaseURL":"https://fir-auth-dd4df-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"fir-auth-dd4df.appspot.com","locationId":"us-central"}
+[debug] [2024-06-01T18:27:02.404Z] Jun 02, 2024 1:27:02 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 02, 2024 1:27:02 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\r\nINFO: Websocket client disconnected\r\n"}}
+[debug] [2024-06-01T18:27:02.467Z] Jun 02, 2024 1:27:02 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 02, 2024 1:27:02 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\r\nINFO: Connected to new websocket client\r\n"}}
+[debug] [2024-06-01T18:35:04.964Z] Jun 02, 2024 1:35:04 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 02, 2024 1:35:04 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2024-06-01T18:36:54.596Z] Jun 02, 2024 1:36:54 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 02, 2024 1:36:54 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\r\nINFO: Websocket client disconnected\r\n"}}
+[debug] [2024-06-01T18:36:54.751Z] Jun 02, 2024 1:36:54 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 02, 2024 1:36:54 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\r\nINFO: Connected to new websocket client\r\n"}}
+[debug] [2024-06-01T18:37:45.198Z] Received signal SIGHUP 1
